@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <!-- Подключение иконок -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Подключение иконок -->
+    <!--Подключение стилей -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Social Impact | KUMO Tech</title>
+</head>
+
+<body>
+    <!--First screen-->
+    <header id="header" class="header_top">
+        <div class="bg_nav_hover"></div>
+        <div class="container_top">
+            <div class="nav d-flex">
+                <a href="../../index.html" class="logo">
+                    <img src="img/kumo_logo.svg" alt="">
+                </a>
+                <!--    Response-menu -->
+                <div class="header">
+                    <div class="container-menu header__container">
+                        <div class="menu-burger__header">
+                            <span class="span_up"></span>
+                            <span class="span_center"></span>
+                            <span class="span_down"></span>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="menu header__menu">
+                                <!-- Desctope menu Products -->
+                                <li class="active_li">
+                                    <a href="../../products/products.html" class="menu__item">
+                                        Products
+                                    </a>
+                                    <span class="active_li arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li>
+                                            <a href="../../products/servers/servers.html"> Servers</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li><a href="../../products/integrated-system/integrated-system.html"> Integrated systems</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../products/iot-empowered-devices/iot-empowered-devices.html"> IoT empowered devices</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu Products -->
+                                <!-- Response hidden menu Products -->
+                                <ul class="menu_hidden" id="menu_hidden">
+                                    <li class="disable_li">
+                                        <span class="disable_li arrow_link_hidden">‹</span>
+                                        <a href="#" class="title_link">
+                                            Products
+                                        </a>
+                                    </li>
+                                    <li class="ignore_li"><a href="../../products/servers/servers.html"> Servers</a></li>
+                                    <li><a href="../../products/integrated_system/integrated_system.html"> Integrated systems</a></li>
+                                    <li><a href="../../products/iot-empowered-devices/iot.html">IoT empowered devices</a></li>
+                                </ul>
+                                <!-- Response hidden menu Products -->
+                                <!-- Desctope menu Services -->
+                                <li class="active_two ">
+                                    <a href="../../services/services.html" class="menu__item">
+                                        Services
+                                    </a>
+                                    <span class="active_li2 arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li><a href="../../services/software-development/software-development.html"> Software development</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li><a href="../../services/application-services/application-services.html">Application Services</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu Services -->
+                                <!-- Response hidden menu Services -->
+                                <ul class="menu_hidden2">
+                                    <li class="disable_li2">
+                                        <span class="disable_li2 arrow_link_hidden">‹</span>
+                                        <a href="#" class="title_link">
+                                            Services
+                                        </a>
+                                    <li><a href="../../services/software-development/software-development.html"> Software development</a>
+                                    </li>
+                                    <li><a href="../../services/application-services/application-services.html">Application Services</a>
+                                    </li>
+                                    <li><a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                                    </li>
+                                    <li><a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                                    </li>
+                                    <li><a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                                    </li>
+                                </ul>
+                                <!-- Response hidden menu Services -->
+                                <!-- Desctope menu Solutions -->
+                                <li class="active_li3 ">
+                                    <a href="../../solutions/solutions.html" class="menu__item">
+                                        Solutions
+                                    </a>
+                                    <span class="active_li3 arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li><a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/big-data/big-data.html">Big Data</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/internet-of-things/internet-of-things.html"> Internet of Things</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/cyber-security/cyber-products/cyber-products.html"> Cyber Products</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu Solutions -->
+                                <!-- Response hidden menu Solutions -->
+                                <ul class="menu_hidden3" id="menu_hidden3">
+                                    <li class="disable_li3"><a href="#" class="title_link"> Solutions</a>
+                                        <span class="active_li3 arrow_link_hidden">‹</span>
+                                    </li>
+                                    <li><a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                                    </li>
+                                    <li><a href="../../solutions/big-data/big-data.html">Big Data</a>
+                                    </li>
+                                    <li><a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                                    </li>
+                                    <li><a href="../../solutions/internet-of-things/internet-of-things.html"> Internet of Things</a>
+                                    </li>
+                                    <li><a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                                    </li>
+                                    <li><a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                                    </li>
+                                    <li><a href="../../solutions/cyber-security/cyber-products/cyber-products.html"> Cyber Products</a>
+                                    </li>
+                                    <li><a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                                    </li>
+                                </ul>
+                                <!-- Response hidden menu Solutions -->
+                                <!-- Desctope menu About us -->
+                                <li class="active_li4 ">
+                                    <a href="../../about-us/about-us.html" class="menu__item">
+                                        About Us
+                                    </a>
+                                    <span class="active_li4 arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li><a href="../../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/our-team/our-team.html"> Our Team</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/careers/careers.html"> Careers</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu About us -->
+                                <!-- Response hidden menu About us -->
+                                <ul class="menu_hidden4" id="menu_hidden4">
+                                    <li class="disable_li4"><a href="#" class="title_link"> About us</a>
+                                        <span class="active_li3 arrow_link_hidden">‹</span></li>
+                                    <li><a href="../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                                    </li>
+                                    <li><a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                                    </li>
+                                    <li><a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                                    </li>
+                                    <li><a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                                    </li>
+                                    <li><a href="../../about-us/our-team/our-team.html"> Our Team</a>
+                                    </li>
+                                    <li><a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                                    </li>
+                                    <li><a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                                    </li>
+                                    <li><a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                                    </li>
+                                    <li><a href="../../about-us/careers/careers.html"> Careers</a>
+                                    </li>
+                                </ul>
+                                <!-- Response hidden menu About us -->
+                                <!-- Desctope menu About us -->
+                                <!-- Desctope menu Contact us -->
+                                <li>
+                                    <a href="../../contact-us/contact-us.html" class="menu__item"> Contact Us
+                                    </a>
+                                </li>
+                                <!-- Desctope menu Contact us -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--    Response-menu -->
+            </div>
+            <div class="offer">
+                <div class="bread_crumbs d-flex">
+                    <a href="../../index.html"> Home</a>
+                    <span> > </span>
+                    <a href="../../about-us/about-us.html"> About us</a>
+                    <span> > </span>
+                    <a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                </div>
+                <span class="page_name">Social Impact</span>
+                <div class="title">
+                    <h1>We advance sustainability, cultivate inclusion and transform lives with technology.</h1>
+                </div>
+                <div class="subtitle">
+                    <h1> At <span class="yellow_word">KUMO Tech</span>, we are committed to driving <span class="italic">human progress</span>. </h1>
+                </div>
+            </div>
+            <div class="info_wrapper d-flex">
+                <div class="info_wrapper_img">
+                    <img src="img/section_img_1.png" alt="img">
+                </div>
+                <div class="info_wrapper_text">
+                    <h2 class="heading">
+                        Progress Made Real shows how we will create a positive and lasting social impact on humankind and the planet through 2030 — using our reach, technology and people.
+                    </h2>
+                    <p>Through our annual reporting, we demonstrate how we are making this progress real.</p>
+                    <a href="#" class="report_btn">View the report</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Two section -->
+    <section class="advancing_section ">
+        <div class="container">
+            <div class="bg_image">
+                <img src="img/bg_image.jpg" alt="">
+            </div>
+            <div class="advancing_wrapper d-flex">
+                <div class="advacing_title">
+                    <h1>
+                        <span class="yellow_word">Advancing </span>Sustainability
+                    </h1>
+                </div>
+                <div class="advancing_block_wrapper">
+                    <div class="advancing_block">
+                        <h2 class="advancing_heading">We have a responsibility to protect and enrich our planet together with our customers, suppliers and communities. It is a core part of our business and we embed sustainability and ethical practices into all that we do, being accountable for our actions while driving improvements wherever and whenever possible.</h2>
+                        <div class="advancing_list">
+                            <div class="advancing_list_item">
+                                <span class="item_index">01 / 03</span>
+                                <p class="item_text">KUMO TECH works with employers to help millions of people live more securely and with dignity.</p>
+                            </div>
+                            <div class="advancing_list_item">
+                                <span class="item_index">02 / 03</span>
+                                <p class="item_text">We help finance breakthroughs in education, science and the environment by offering a wide range of solutions and products to help them achieve their goals regardless of time horizon.</p>
+                            </div>
+                            <div class="advancing_list_item">
+                                <span class="item_index">03 / 03</span>
+                                <p class="item_text">We help countries build their infrastructure, implement monetary policies and make savings for future generations by working with central banks, governments and sovereign wealth funds.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advancing_block">
+                        <h2 class="advancing_heading">Right now our main focus is Asian market, and the first point of our technological adventure is Malaysia - country of numerous opportunities and serious challenges that we are eager to overcome, helping the local population, business and government thrive and utilize modern technologies at best.</h2>
+                        <div class="advancing_list">
+                            <div class="advancing_list_item">
+                                <span class="item_index">01 / 03</span>
+                                <p class="item_text">For instance, 5G is not just about enhanced speeds and connectivity, but it’s also an economic driver that can improve the quality of life, businesses including SMEs, and the government.</p>
+                            </div>
+                            <div class="advancing_list_item">
+                                <span class="item_index">02 / 03</span>
+                                <p class="item_text">According to the Malaysian Institute of Economic Research (MIER), 5G implementation will a significant impact on the nation’s economy. It is estimated that it would contribute up to RM12.7 billion to the GDP between 2021 and 2025. On top of that, it has the potential to create more than 39,000 new jobs higher income, and almost 40 per cent of these jobs are expected to be available in 2025.</p>
+                            </div>
+                            <div class="advancing_list_item">
+                                <span class="item_index">03 / 03</span>
+                                <p class="item_text">We help countries build their infrastructure, implement monetary policies and make savings for future generations by working with central banks, governments and sovereign wealth funds.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Two section -->
+    <!--Three section-->
+    <section class="info_list">
+        <div class="container">
+            <div class="info_list_wrapper">
+                <div class="info_list_item d-flex">
+                    <div class="item_img">
+                        <img src="img/item_img_1.png" alt="">
+                    </div>
+                    <div class="item_info">
+                        <h2 class="item_title">
+                            The Digital Future is where human progress is transformed by technology.
+                        </h2>
+                        <p class="item_subtitle">
+                            KUMO TECH is committed to transforming businesses, shaping the future of innovation and developing technologies to drive human progress.
+                        </p>
+                    </div>
+                </div>
+                <div class="info_list_item d-flex">
+                    <div class="item_img">
+                        <img src="img/item_img_2.png" alt="">
+                    </div>
+                    <div class="item_info">
+                        <h2 class="item_title">
+                            Our highest aspirations reflect how we’ll make our positive social impact real and measurable.
+                        </h2>
+                        <p class="item_subtitle">
+                            With our technology and scale, we will advance health, education and economic opportunity initiatives to deliver enduring results.
+                        </p>
+                    </div>
+                </div>
+                <div class="info_list_item d-flex">
+                    <div class="item_img">
+                        <img src="img/item_img_3.png" alt="">
+                    </div>
+                    <div class="item_info">
+                        <h2 class="item_title">Upholding ethics & privacy</h2>
+                        <p class="item_subtitle">By 2030, we will fully automate our data control processes, making it easy for our customers to control their personal data</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Three section-->
+    <!--Footer-->
+    <Footer class="footer">
+        <!-- button up -->
+        <a href="#header" class="click_return">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <!-- button up -->
+        <div class="container">
+            <div class="nav-footer d-flex">
+                <a href="#header" id="logo_footer" class="logo_footer click_up">
+                    <img src="img/kumo_logo.svg" alt="">
+                </a>
+                <!-- footer nav desctop -->
+                <div class="menu_wrapper d-flex">
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../products/products.html" class="main_link">products</a>
+                            </li>
+                            <li>
+                                <a href="../../products/servers/servers.html"> Servers</a>
+                            </li>
+                            <li>
+                                <a href="../../products/integrated-system/integrated-system.html"> Integrated systems</a>
+                            </li>
+                            <li>
+                                <a href="../../products/iot-empowered-devices/iot-empowered-devices.html">IoT empowered devices</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../services/services.html" class="main_link">SERVICES</a>
+                            </li>
+                            <li>
+                                <a href="../../services/software-development/software-development.html"> Software development</a>
+                            </li>
+                            <li>
+                                <a href="../../services/application-services/application-services.html">Application Services</a>
+                            </li>
+                            <li>
+                                <a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                            </li>
+                            <li>
+                                <a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                            </li>
+                            <li>
+                                <a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../solutions/solutions.html" class="main_link">SOLUTIONS</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/big-data/big-data.html">Big Data</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/internet-of-things/internet-of-things.html">IoT</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../about-us/about-us.html" class="main_link">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/our-team/our-team.html"> Our Team</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/careers/careers.html">Careers</a>
+                            </li>
+                            <li>
+                                <a href="../../contact-us/contact-us.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer nav desctop -->
+            </div>
+            <!-- footer nav response -->
+            <div class="accordeon-wrapper-footer">
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title
+                        first_title">
+                        PRODUCTS
+                    </div>
+                    <div class="accordeon-nav-content">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li><a href="../../servers/servers.html"> Servers</a></li>
+                                <li><a href="../../servers/integrated-system/integrated-system.html"> Integrated systems</a></li>
+                                <li><a href="../../servers/iot-empowered-devices/iot-empowered-devices.html">IoT empowered devices</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title">
+                        SERVICES
+                    </div>
+                    <div class="accordeon-nav-content accordeon-nav-content2">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li>
+                                    <a href="../../services/software-development/software-development.html"> Software development</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/application-services/application-services.html">Application Services</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title">
+                        SOLUTIONS
+                    </div>
+                    <div class="accordeon-nav-content accordeon-nav-content3">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li>
+                                    <a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/big-data/big-data.html">Big Data</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/internet-of-things/internet-of-things.html"> IoT</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title">
+                        ABOUT US
+                    </div>
+                    <div class="accordeon-nav-content accordeon-nav-content4 ">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li>
+                                    <a href="../../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                                </li>
+                                <li>
+                                    <a href="../about-us/our-team/our-team.html"> Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/careers/careers.html"> Careers</a>
+                                </li>
+                                <li>
+                                    <a href="../../contact-us/contact-us.html"> Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="copyraityng">© 2020 Kumo Technologies Sdn Bhd | Privacy Policy | Terms of Use | Legal</span>
+        </div>
+        <!-- footer nav response -->
+    </Footer>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/scrypt.js"></script>
+</body>
+
+</html>

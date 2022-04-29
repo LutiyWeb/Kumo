@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <!-- Подключение иконок -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Подключение иконок -->
+    <!--Подключение стилей -->
+    <link rel="stylesheet" href="Emerging_technologies.css/normalize.css">
+    <link rel="stylesheet" href="Emerging_technologies.css/style.css">
+    <title>Emerging Technologies | KUMO Tech</title>
+</head>
+
+<body>
+    <!--First screen-->
+    <header id="header" class="header_top">
+        <div class="bg_nav_hover"></div>
+        <div class="container_top">
+            <div class="nav d-flex">
+                <a href="../../index.html" class="logo">
+                    <img src="img/kumo_logo.svg" alt="">
+                </a>
+                <!--    Response-menu -->
+                <div class="header">
+                    <div class="container-menu header__container">
+                        <div class="menu-burger__header">
+                            <span class="span_up"></span>
+                            <span class="span_center"></span>
+                            <span class="span_down"></span>
+                        </div>
+                        <nav class="header__nav">
+                            <ul class="menu header__menu">
+                                <!-- Desctope menu Products -->
+                                <li class="active_li">
+                                    <a href="../../products/products.html" class="menu__item">
+                                        Products
+                                    </a>
+                                    <span class="active_li arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li>
+                                            <a href="../../products/servers/servers.html"> Servers</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li><a href="../../products/integrated-system/integrated-system.html"> Integrated systems</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../products/iot-empowered-devices/iot-empowered-devices.html"> IoT empowered devices</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu Products -->
+                                <!-- Response hidden menu Products -->
+                                <ul class="menu_hidden" id="menu_hidden">
+                                    <li class="disable_li">
+                                        <span class="disable_li arrow_link_hidden">‹</span>
+                                        <a href="#" class="title_link">
+                                            Products
+                                        </a>
+                                    </li>
+                                    <li class="ignore_li"><a href="../../products/servers/servers.html"> Servers</a></li>
+                                    <li><a href="../../products/integrated_system/integrated_system.html"> Integrated systems</a></li>
+                                    <li><a href="../../products/iot-empowered-devices/iot-empowered-devices.html">IoT empowered devices</a></li>
+                                </ul>
+                                <!-- Response hidden menu Products -->
+                                <!-- Desctope menu Services -->
+                                <li class="active_two ">
+                                    <a href="../../services/services.html" class="menu__item">
+                                        Services
+                                    </a>
+                                    <span class="active_li2 arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li><a href="../../services/software-development/software-development.html"> Software development</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a>
+                                        </li>
+                                        <li><a href="../../services/application-services/application-services.html">Application Services</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu Services -->
+                                <!-- Response hidden menu Services -->
+                                <ul class="menu_hidden2">
+                                    <li class="disable_li2">
+                                        <span class="disable_li2 arrow_link_hidden">‹</span>
+                                        <a href="#" class="title_link">
+                                            Services
+                                        </a>
+                                    <li><a href="../../services/software-development/software-development.html"> Software development</a>
+                                    </li>
+                                    <li><a href="../../services/application-services/application-services.html">Application Services</a>
+                                    </li>
+                                    <li><a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                                    </li>
+                                    <li><a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                                    </li>
+                                    <li><a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                                    </li>
+                                </ul>
+                                <!-- Response hidden menu Services -->
+                                <!-- Desctope menu Solutions -->
+                                <li class="active_li3 ">
+                                    <a href="../../solutions/solutions.html" class="menu__item">
+                                        Solutions
+                                    </a>
+                                    <span class="active_li3 arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li><a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/big-data/big-data.html">Big Data</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/internet-of-things/internet-of-things.html"> Internet of Things</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/cyber-security/cyber-products/cyber-products.html"> Cyber Products</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu Solutions -->
+                                <!-- Response hidden menu Solutions -->
+                                <ul class="menu_hidden3" id="menu_hidden3">
+                                    <li class="disable_li3"><a href="#" class="title_link"> Solutions</a>
+                                        <span class="active_li3 arrow_link_hidden">‹</span>
+                                    </li>
+                                    <li><a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                                    </li>
+                                    <li><a href="../../solutions/big-data/big-data.html">Big Data</a>
+                                    </li>
+                                    <li><a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                                    </li>
+                                    <li><a href="../../solutions/internet-of-things/internet-of-things.html"> Internet of Things</a>
+                                    </li>
+                                    <li><a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                                    </li>
+                                    <li><a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                                    </li>
+                                    <li><a href="../../solutions/cyber-security/cyber-products/cyber-products.html"> Cyber Products</a>
+                                    </li>
+                                    <li><a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                                    </li>
+                                </ul>
+                                <!-- Response hidden menu Solutions -->
+                                <!-- Desctope menu About us -->
+                                <li class="active_li4 ">
+                                    <a href="../../about-us/about-us.html" class="menu__item">
+                                        About Us
+                                    </a>
+                                    <span class="active_li4 arrow_link">›</span>
+                                    <ul class="menu_desc">
+                                        <li><a href="....//about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/our-team/our-team.html"> Our Team</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                        <li><a href="../../about-us/careers/careers.html"> Careers</a>
+                                            <a href="#" class="arrow">
+                                                <img src="img/menu_desc_arrow.svg" alt="">
+                                            </a></li>
+                                    </ul>
+                                </li>
+                                <!-- Desctope menu About us -->
+                                <!-- Response hidden menu About us -->
+                                <ul class="menu_hidden4" id="menu_hidden4">
+                                    <li class="disable_li4"><a href="#" class="title_link"> About us</a>
+                                        <span class="active_li3 arrow_link_hidden">‹</span></li>
+                                    <li><a href="../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                                    </li>
+                                    <li><a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                                    </li>
+                                    <li><a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                                    </li>
+                                    <li><a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                                    </li>
+                                    <li><a href="../../about-us/our-team/our-team.html"> Our Team</a>
+                                    </li>
+                                    <li><a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                                    </li>
+                                    <li><a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                                    </li>
+                                    <li><a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                                    </li>
+                                    <li><a href="../../about-us/careers/careers.html"> Careers</a>
+                                    </li>
+                                </ul>
+                                <!-- Response hidden menu About us -->
+                                <!-- Desctope menu About us -->
+                                <!-- Desctope menu Contact us -->
+                                <li>
+                                    <a href="../../contact-us/contact-us.html" class="menu__item"> Contact Us
+                                    </a>
+                                </li>
+                                <!-- Desctope menu Contact us -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--    Response-menu -->
+            </div>
+            <div class="offer">
+                <div class="bread_crumbs d-flex">
+                    <a href="../../index.html"> Home</a>
+                    <span> > </span>
+                    <a href="../../about-us/about-us.html"> About us</a>
+                    <span> > </span>
+                    <a href="../../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                </div>
+                <span class="page_name">Emerging Technologies</span>
+                <div class="title">
+                    <h1>Accelerate your innovation with <span>emerging technologies</span>.</h1>
+                </div>
+                <div class="subtitle">
+                    <h1><span>Emerging technologies</span> allow organizations to innovate with data in ways we never thought possible. </h1>
+                </div>
+            </div>
+            <div class="ifno_wrapper d-flex">
+                <div class="ifno_wrapper_img">
+                    <img src="img/section_img_1.png" alt="img">
+                </div>
+                <div class="ifno_wrapper_text">
+                    <h3 class="heading">
+                        Smart vehicles will become autonomous. Remote tele-medicine will remove barriers to healthcare. Digital cities will revolutionize our daily lives.
+                    </h3>
+                    <p>
+                        The fact is, emerging technologies such as AI, IoT and 5G operating at the edge are part of a sea change across every industry.
+                    </p>
+                    <p>
+                        A new age is upon us and together, we can advance the quality of life for billions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Two section -->
+    <section class="technology_section ">
+        <div class="container">
+            <!-- EDGE -->
+            <div class="technology_tab">
+                <div class="title_tech  d-flex">
+                    <h1 class="heading_tech">
+                        EDGE
+                    </h1>
+                    <p class="index_tech">
+                        01
+                    </p>
+                </div>
+                <div class="technology_wrapper d-flex">
+                    <div class="content_tech">
+                        <div class="info_block info_block_first">
+                            <h3 class="italic_heading">The promise of emerging technology is balanced <span>on the edge</span></h3>
+                            <p class="first_text">Nearly all the promises of emerging technology are reliant on the edge. It can fundamentally transform how people and machines interact with digital services, advance human progress and shape the future.
+                            </p>
+                            <div class="technology_img_resp">
+                                <img src="img/section_img_edge.png" alt="5g">
+                            </div>
+                            <p class="second_text">From new AR and VR uses, to enhanced efficiency and control in healthcare, manufacturing, automotive, retail, financial services, telco and much more.</p>
+                        </div>
+                        <div class="procent_row">
+                            <p class="procent_index">75% </p>
+                            <p class="procent_text">of enterprise-generated data in 2025 will be created and processed outside a traditional data center or cloud</p>
+                        </div>
+                    </div>
+                    <div class="technology_img">
+                        <img src="img/section_img_edge.png" alt="5g">
+                    </div>
+                </div>
+                <h3 class="edge_heading_customise italic_heading">
+                    Maximize performance from the core, to the <span>cloud and to the edge beyond</span>
+                </h3>
+                <!-- accardeon   -->
+                <div class="accordeon-wrapper">
+                    <div class="accordeon-item active">
+                        <div class="accordeon-item-title">
+                            <div class="index">01 / 04</div>
+                            <div class="title_text">Think data first. Maximize value.
+                            </div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">We keep you in control of your data, prioritizing it, enabling easier integration, all on a strong foundation that helps maximize value.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordeon-item accordeon-item_two">
+                        <div class="accordeon-item-title">
+                            <div class="index">02 / 04</div>
+                            <div class="title_text">Simplify for predictable value</div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">We help you eliminate complexity and improve interoperability with software-defined infrastructure, so you can create predictable value.</p>
+                        </div>
+                    </div>
+                    <div class="accordeon-item">
+                        <div class="accordeon-item-title">
+                            <div class="index">03 / 04</div>
+                            <div class="title_text">Build for outcomes and productivity</div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                Get the most advanced, customizable technology and services, accelerated insights, and next-level outcomes and productivity.</p>
+                        </div>
+                    </div>
+                    <div class="accordeon-item">
+                        <div class="accordeon-item-title">
+                            <div class="index">04 / 04</div>
+                            <div class="title_text">Improve dev apps and deployment</div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                We empower you with agile development and deployment of applications to give you choice and flexibility wherever you choose to run them.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accardeon   -->
+            <!-- EDGE -->
+            <!-- 5G -->
+            <div class="technology_tab">
+                <div class="title_tech d-flex">
+                    <h1 class="heading_tech">
+                        5G
+                    </h1>
+                    <p class="index_tech">
+                        02
+                    </p>
+                </div>
+                <div class="technology_wrapper d-flex">
+                    <div class="content_tech">
+                        <div class="info_block info_block_second">
+                            <h3 class="italic_heading">5G multiplies performance.
+                                <span> Then multiplies it again </span></h3>
+                            <p class="first_text">5G ushers in a world of mobile connectivity that can create experiences with performance levels equal to physical connection. </p>
+                            <div class="technology_img_resp">
+                                <img src="img/section_img_5g.png" alt="5g">
+                            </div>
+                            <p class="second_text">We can help you get to this digital future; from faster video downloads and near-instantaneous response times to web browsing and massive file sharing. Fast.</p>
+                        </div>
+                        <div class="procent_row">
+                            <p class="procent_index">40% </p>
+                            <p class="procent_text">of global networks will be covered by 5G in 2024, handling 25% of the mobile traffic globally.</p>
+                        </div>
+                    </div>
+                    <div class="technology_img">
+                        <img src="img/section_img_5g.png" alt="5g">
+                    </div>
+                </div>
+                <h3 class="five_g_heading_customise italic_heading">
+                    Get the power of a <span>real-time connected world</span>
+                </h3>
+                <!-- accardeon   -->
+                <div class="accordeon-wrapper">
+                    <div class="accordeon-item active">
+                        <div class="accordeon-item-title">
+                            <div class="index">01 / 02</div>
+                            <div class="title_text">Get to market faster with our partners
+                            </div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                We provide access to experts across a comprehensive mix of technologies and services to bring you the full advantages of 5G
+                            </p>
+                        </div>
+                    </div>
+                    <!-- <div class="accordeon-item accordeon-item_two">
+                        <div class="accordeon-item-title">
+                            <div class="index">02 / 02</div>
+                            <div class="title_text">Everything works together driving customer satisfaction</div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                We provide customization, multi-vendor support, Data Centres a Service, integration services all so you keep your suppliers and customers happy.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- accardeon   -->
+            <!-- 5G -->
+            <!-- Artificial intelegence -->
+            <div class="technology_tab">
+                <div class="title_tech d-flex">
+                    <h1 class="heading_tech">
+                        Artificial intelegence
+                    </h1>
+                    <p class="index_tech">
+                        03
+                    </p>
+                </div>
+                <div class="technology_wrapper d-flex">
+                    <div class="content_tech">
+                        <div class="info_block info_block_three">
+                            <h3 class="italic_heading">Artificial intelligence led <span> by human intelligence</span></h3>
+                            <p class="first_text">Harnessing any AI application is a human-centric journey for every organization, regardless of industry or location.</p>
+                            <div class="technology_img_resp">
+                                <img src="img/section_img_artificiale.png" alt="5g">
+                            </div>
+                            <p class="second_text">We believe today’s accelerating shift from physical to digital interactions requires the creation of a clear process and plan to get AI to meet your real-world needs.</p>
+                        </div>
+                        <div class="procent_row">
+                            <p class="procent_index">31% </p>
+                            <p class="procent_text">of businesses plan to use AI to improve services</p>
+                        </div>
+                    </div>
+                    <div class="technology_img">
+                        <img src="img/section_img_artificiale.png" alt="5g">
+                    </div>
+                </div>
+                <h3 class="edge_heading_customise italic_heading">
+                    Here’s how to get <span>the true benefits of AI:</span>
+                </h3>
+                <!-- accardeon   -->
+                <div class="accordeon-wrapper">
+                    <div class="accordeon-item accordeon-item_two  active">
+                        <div class="accordeon-item-title">
+                            <div class="index">01 / 03</div>
+                            <div class="title_text">Define strategic outcomes
+                            </div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                Our consulting services help apply AI to solve business challenges. We also provide educational classes that can help you close any skill-gaps among your workers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordeon-item accordeon-item_three">
+                        <div class="accordeon-item-title">
+                            <div class="index">02 / 03</div>
+                            <div class="title_text">Put data to work to realize your AI vision</div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                We equip you with the broadest portfolio of modern software, hardware, and services to support your evolving AI needs. This includes the ability to scale up AI resources to increase capabilities</p>
+                        </div>
+                    </div>
+                    <div class="accordeon-item accordeon-item_three">
+                        <div class="accordeon-item-title">
+                            <div class="index">03 / 03</div>
+                            <div class="title_text">Build on success to grow your competitive advantage</div>
+                        </div>
+                        <div class="accordeon-item-content d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                We help you to evolve your AI vision as usage changes, data grows, and demands increase. We help you harness the power of AI everywhere, leverage past successes, and create competitive advantages</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accardeon   -->
+            <!-- Artificial intelegence -->
+            <!-- Internet of things -->
+            <div class="technology_tab technology_tab_IoF ">
+                <div class="title_tech d-flex">
+                    <h1 class="heading_tech">
+                        Internet of things
+                    </h1>
+                    <p class="index_tech">
+                        04
+                    </p>
+                </div>
+                <div class="technology_wrapper d-flex">
+                    <div class="content_tech">
+                        <div class="info_block info_block_four ">
+                            <h3 class="italic_heading">Your digital future can be<span>on the cutting edge of IoT</span></h3>
+                            <p class="first_text">IoT with edge can get you to the digital future faster. The fact is, IoT’s promise is to digitally sense the physical world and transform material things into high value, actionable data.</p>
+                            <div class="technology_img_resp">
+                                <img src="img/section_img_internet.png" alt="internet">
+                            </div>
+                            <p class="second_text">We make this real, using IoT data to fuel other emerging technologies that drive human progress in every aspect of life.</p>
+                        </div>
+                        <div class="procent_row">
+                            <p class="procent_index">65% </p>
+                            <p class="procent_text">of enterprises will adopt IoT products in 2020</p>
+                        </div>
+                    </div>
+                    <div class="technology_img">
+                        <img src="img/section_img_internet.png" alt="internet">
+                    </div>
+                </div>
+                <h3 class="internet_heading_customise italic_heading">
+                    <span>Making IoT real</span> demands an open approach:
+                </h3>
+                <!-- accardeon   -->
+                <div class="accordeon-wrapper">
+                    <div class="accordeon-item  active">
+                        <div class="accordeon-item-title">
+                            <div class="index">01 / 02</div>
+                            <div class="title_text">Architecture for flexibility of scale to innovate faster
+                            </div>
+                        </div>
+                        <div class="accordeon-item-content accordeon-item-content_IoF d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">Define strategic outcomes
+                                We believe that when you deploy edge and IoT solutions, you should always start small and
+                                have an end goal in mind
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordeon-item ">
+                        <div class="accordeon-item-title">
+                            <div class="index">02 / 02</div>
+                            <div class="title_text">Protect operations. Maintain productivity</div>
+                        </div>
+                        <div class="accordeon-item-content accordeon-item-content_IoF d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                The truth is, IoT can expose you to costly disruptions. We can help prevent this so you can focus
+                                on your goals and how to realize them.</p>
+                        </div>
+                    </div>
+                    <div class="accordeon-item ">
+                        <div class="accordeon-item-title">
+                            <div class="index">03 / 02</div>
+                            <div class="title_text">Harness the data deluge. Capture data value</div>
+                        </div>
+                        <div class="accordeon-item-content accordeon-item-content_IoF d-flex">
+                            <div class="content_arrow">
+                                <img src="img/accardeon_arrow.svg" alt="arrow">
+                            </div>
+                            <p class="content_subtitle">
+                                IoT is generating massive amounts of data and we see this as a huge advantage. We’ll help you
+                                unlock the value of data at any scale</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- accardeon   -->
+            <!-- Internet of things -->
+        </div>
+    </section>
+    <!--Two section -->
+    <!--Three section-->
+    <section class="start_section">
+        <div class="container start_container">
+            <div class="start_bg">
+                <img src="img/start_bg.svg" alt="">
+            </div>
+            <h1 class="start_heding">
+                Explore KUMO Emerging Technologies Solutions
+            </h1>
+            <span class="heading_line"></span>
+            <p class="start_description">
+                Explore KUMO Emerging Technologies Solutions
+            </p>
+            <a href="../../solutions/solutions.html" class="start_btn">
+                View All Solutions
+            </a>
+        </div>
+    </section>
+    <!--Three section-->
+    <!--Footer-->
+    <Footer class="footer">
+        <!-- button up -->
+        <a href="#header" class="click_return">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <!-- button up -->
+        <div class="container">
+            <div class="nav-footer d-flex">
+                <a href="#header" id="logo_footer" class="logo_footer click_up">
+                    <img src="img/kumo_logo.svg" alt="">
+                </a>
+                <!-- footer nav desctop -->
+                <div class="menu_wrapper d-flex">
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../products/products.html" class="main_link">products</a>
+                            </li>
+                            <li>
+                                <a href="../../products/servers/servers.html"> Servers</a>
+                            </li>
+                            <li>
+                                <a href="../../products/integrated-system/integrated-system.html"> Integrated systems</a>
+                            </li>
+                            <li>
+                                <a href="../../products/iot-empowered-devices/iot-empowered-devices.html">IoT empowered devices</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../services/services.html" class="main_link">SERVICES</a>
+                            </li>
+                            <li>
+                                <a href="../../services/software-development/software-development.html"> Software development</a>
+                            </li>
+                            <li>
+                                <a href="../../services/application-services/application-services.html">Application Services</a>
+                            </li>
+                            <li>
+                                <a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                            </li>
+                            <li>
+                                <a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                            </li>
+                            <li>
+                                <a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../solutions/solutions.html" class="main_link">SOLUTIONS</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/big-data/big-data.html">Big Data</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/internet-of-things/internet-of-things.html">IoT</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                            </li>
+                            <li>
+                                <a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu_footer">
+                        <ul>
+                            <li>
+                                <a href="../../about-us/about-us.html" class="main_link">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/our-team/our-team.html"> Our Team</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                            </li>
+                            <li>
+                                <a href="../../about-us/careers/careers.html"> Careers</a>
+                            </li>
+                            <li>
+                                <a href="../../contact-us/contact-us.html"> Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- footer nav desctop -->
+            </div>
+            <!-- footer nav response -->
+            <div class="accordeon-wrapper-footer">
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title
+                        first_title">
+                        PRODUCTS
+                    </div>
+                    <div class="accordeon-nav-content">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li><a href="../../products/servers/servers.html"> Servers</a></li>
+                                <li><a href="../../products/integrated-system/integrated-system.html"> Integrated systems</a></li>
+                                <li><a href="../../products/iot-empowered-devices/iot-empowered-devices.html">IoT empowered devices</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title">
+                        SERVICES
+                    </div>
+                    <div class="accordeon-nav-content accordeon-nav-content2">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li>
+                                    <a href="../../services/software-development/software-development.html"> Software development</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/application-services/application-services.html">Application Services</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/it-consulting/it-consulting.html">IT consulting</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/managed-it-services/managed-it-services.html"> Managed IT services</a>
+                                </li>
+                                <li>
+                                    <a href="../../services/testing-and-qa/testing-and-qa.html"> Testing and QA</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title">
+                        SOLUTIONS
+                    </div>
+                    <div class="accordeon-nav-content accordeon-nav-content3">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li>
+                                    <a href="../../solutions/artificial-intelligence/artificial-intelligence.html">Artificial Intelligence</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/big-data/big-data.html">Big Data</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/machine-and-ai-vision/machine-and-ai-vision.html">Machine and AI Vision </a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/internet-of-things/internet-of-things.html"> IoT</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/smart-everything/smart-everything.html">Smart everything</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/cyber-security/cyber-security.html">Cyber Security</a>
+                                </li>
+                                <li>
+                                    <a href="../../solutions/5g-technology/5g-technology.html"> 5G Technology</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordeon-nav-footer">
+                    <div class="accordeon-nav-title">
+                        ABOUT US
+                    </div>
+                    <div class="accordeon-nav-content accordeon-nav-content4 ">
+                        <div class="resp_foot_nav">
+                            <ul>
+                                <li>
+                                    <a href="../../about-us/emerging-technologies/emerging-technologies.html">Emerging Technologies</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/it-integration/it-integration.html">IT Integration</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/it-transformation/it-transformation.html">IT Transformation</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/security-transformation/security-transformation.html"> Security Transformation</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/our-team/our-team.html"> Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/kumo-group/kumo-group.html">Kumo Group</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/social-impact/social-impact.html">Social Impact</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/newsroom/newsroom.html"> Newsroom</a>
+                                </li>
+                                <li>
+                                    <a href="../../about-us/careers/careers.html"> Careers</a>
+                                </li>
+                                <li>
+                                    <a href="../../contact-us/contact-us.html"> Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="copyraityng">© 2020 Kumo Technologies Sdn Bhd | Privacy Policy | Terms of Use | Legal</span>
+        </div>
+        <!-- footer nav response -->
+    </Footer>
+    <script src="Emerging_technologies.js/jquery-3.5.1.min.js"></script>
+    <script src="Emerging_technologies.js/scrypt.js"></script>
+</body>
+
+</html>
